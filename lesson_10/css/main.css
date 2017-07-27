@@ -49,12 +49,7 @@ h1 {
 .img-bloc {
   display: block;
   text-align: center;
-  box-shadow: 1px 1pc 5 px #505050;
-}
-.line {
-  display: block;
-  text-align: center;
-  box-shadow: 1px 1pc 5 px #505050;
+  margin: 0px auto;
 }
 .line {
   width: 100%;
