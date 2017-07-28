@@ -1,12 +1,15 @@
-@bgc: #f8c14c;
-@bgc-l: #fbd59c;
-@lait: #232323
+@bgcgr: #f8c14d;
+@bgc: #f9c04c;
+@bgcgr: #f4a125;
+@bgch: #fbd59c;
+@lait: #232323;
 @ttl: #505050;
 @bg-i: #e5e5e5;
-@x-shadow: 2px  4px  rgba(51, 51, 51, 0.09);
+@x-shadow: rgba(51, 51, 51, 0.09);
 
 .fon {	
 	background-color: @bgc;
+	background: linear-gradient(180deg, @bgc, @bgcgr);
 	height: 170px;
 	width: 100%;
 } 
@@ -29,7 +32,7 @@ a {
 	
 }
 .section {
-	background-color: @bgc-l;
+	background-color: @bgch;
 	height: 90px;
 	margin-top: 2px;
 	width: 100%;
@@ -69,3 +72,11 @@ h1 {
 	width: 100%;
 	height: 46px;
 }
+.line-btn {
+	width: 100%;
+	height: 5px;
+	background-color: @bgcgr;
+	margin-top: 80px;
+}
+
+
