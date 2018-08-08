@@ -1,2 +1,0 @@
-# npermogorskaya.github.io
-Домашки
